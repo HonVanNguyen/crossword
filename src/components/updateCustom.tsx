@@ -76,11 +76,14 @@ function GameComponent(){
       if(check)
           {
             isCorrect.current = '1';
+            console.log('correct')
             if(elementBtn)
             {
               elementBtn.style.backgroundColor= '#54D62C'
             }
           } else{
+            console.log('incorrect')
+
             isCorrect.current = '2';
             if(elementBtn)
               {
